@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Grades\GradeController;
+use App\Http\Controllers\Grades\ClassroomController;
+
 
 use Illuminate\Support\Facades\Route;
 
@@ -31,6 +33,7 @@ Route::group(
 ], function(){ //...
 		
 		Route::resource('Grades',GradeController::class);
+		Route::resource('Classrooms',ClassroomController::class);
 		Route::get('/dashboard', function () {
 			return view('dashboard');
 		})->middleware(['auth', 'verified'])->name('dashboard');

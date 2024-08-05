@@ -4,12 +4,13 @@ return [
 
     'Dashboard'=>'الرئيسية',
     'Dashboard_page'=>'لوحة التحكم',
-    'Main_title'=>'برنامج مورا سوفت لادارة المدارس',
-    'Programname' => 'برنامج مورا سوفت لادارة المدارس',
+    'Main_title'=>'برنامج ادارة المدارس',
+    'Programname' => 'برنامج ادارة المدارس',
     'change_language'=>'تغير اللغة',
     'Grades'=>'المراحل الدراسية',
     'Grades_list'=>'قائمة المراحل الدراسية',
-    'classes'=>'الفصول',
+    'classes'=>'الصفوف',
+    'List_classes'=>'قائمة الصفوف الدراسية',
     'sections'=>'الاقسام',
     'students'=>'الطلاب',
     'Teachers'=>'المعلمين',
@@ -22,7 +23,7 @@ return [
     'Settings'=>'الاعدادات',
     'Users'=>'المستخدمين',
     'Copyright' => 'جميع الحقوق محفوظة ',
-    'Name_Programer' => 'سمير جمال مورا سوفت'
+   
 
 
 ];
